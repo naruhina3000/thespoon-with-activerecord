@@ -1,0 +1,13 @@
+MODEL --> Restaurant
+
+CREATE TABLE --> with a migration
+
+TIMESTAMP --> creating the file with the timestamp
+
+To generate model you use that:
+rails generate model Restaurant name:string rating:integer
+
+it will automatically create a db which 
+- you can still adjust it because it still needs to be migrated
+
+After migration:

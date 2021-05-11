@@ -1,0 +1,7 @@
+<h1><%= @restaurant.name.upcase %></h1>
+
+<%= link_to "Back", restaurants_path %>
+
+<%= link_to "Edit", edit_restaurant_path(@restaurant) %>
+
+<%= link_to "Delete", restaurant_path(@restaurant), method: :delete %>
